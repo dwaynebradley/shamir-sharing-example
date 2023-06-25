@@ -7,6 +7,7 @@ import (
 	"github.com/hashicorp/vault/shamir"
 )
 
+const Secret = "p455w0rdhunt3r2"
 const NumParts = 5
 const Threshold = 3
 
@@ -72,8 +73,7 @@ func decodeShamirSecret(parts [][]byte) (string, error) {
 
 func main() {
 	// Generate the parts of the secret
-	secret := "p455w0rdhunt3r2"
-	parts, err := getBase64ShamirParts(secret, NumParts, Threshold)
+	parts, err := getBase64ShamirParts(Secret, NumParts, Threshold)
 	if err != nil {
 		panic(err)
 	}
@@ -88,7 +88,7 @@ func main() {
 	}
 
 	// Decode the secret from the parts provided
-	secret, err = decodeShamirSecret(combinedParts)
+	secret, err := decodeShamirSecret(combinedParts)
 	if err != nil {
 		panic(err)
 	}
