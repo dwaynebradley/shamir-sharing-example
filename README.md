@@ -17,7 +17,7 @@ the secret can be reassembled only when a sufficient number of shares are combin
 information-theoretic security, meaning that even if an attacker steals some shares, it is impossible for the 
 attacker to reconstruct the secret unless they have stolen the quorum number of shares. 
 
-[Hashicorp Vault]() implements Shamir's Secret Sharing. In this example their library is leveraged.
+[Hashicorp Vault](https://www.hashicorp.com/products/vault) implements Shamir's Secret Sharing. This code leverages [their library](https://github.com/hashicorp/vault/tree/main/shamir).
 
 ## Building the code
 
