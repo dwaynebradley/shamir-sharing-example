@@ -11,13 +11,13 @@ There is.
 From [Wikipdia](https://en.wikipedia.org/wiki/Shamir%27s_secret_sharing):
 
 > Shamir's secret sharing (SSS) is an efficient secret sharing algorithm for distributing private information
-(the "secret") among a group so that the secret cannot be revealed unless a quorum of the group acts together to 
-pool their knowledge. To achieve this, the secret is mathematically divided into parts (the "shares") from which 
-the secret can be reassembled only when a sufficient number of shares are combined. SSS has the property of 
-information-theoretic security, meaning that even if an attacker steals some shares, it is impossible for the 
-attacker to reconstruct the secret unless they have stolen the quorum number of shares. 
+(the "secret") among a group so that the secret cannot be revealed unless a quorum of the group acts together to
+pool their knowledge. To achieve this, the secret is mathematically divided into parts (the "shares") from which
+the secret can be reassembled only when a sufficient number of shares are combined. SSS has the property of
+information-theoretic security, meaning that even if an attacker steals some shares, it is impossible for the
+attacker to reconstruct the secret unless they have stolen the quorum number of shares.
 
-[Hashicorp Vault](https://www.hashicorp.com/products/vault) implements Shamir's Secret Sharing. This code leverages [their library](https://github.com/hashicorp/vault/tree/main/shamir).
+[OpenBao](https://openbao.org) implements Shamir's Secret Sharing. This code leverages [their library](https://github.com/openbao/openbao/tree/main/sdk/helper/shamir).
 
 ## Building the code
 

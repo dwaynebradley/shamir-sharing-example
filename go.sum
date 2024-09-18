@@ -1,4 +1,2 @@
-github.com/hashicorp/vault v1.14.0 h1:c+ujeY6SP/6xFF7dn1tfMhn5JPbRntX6lpIaoRUR6LM=
-github.com/hashicorp/vault v1.14.0/go.mod h1:bVRLXpE3TF0NgB/t2pJyox1n7dhtqbsZ5G19G0gpLRw=
-github.com/lafriks/go-shamir v1.1.0 h1:80AU8M1G+W9BBlnh8rqLR8mSqP44fDND+61UxR7yaB4=
-github.com/lafriks/go-shamir v1.1.0/go.mod h1:Sfy1w+uElJphCKcJc7Ku5Wp9SDFKQ53OQ+NHUEtfUK4=
+github.com/openbao/openbao/sdk/v2 v2.0.1 h1:to7KnJSf3Guz082ZJvnCqRrsdrVO2Hd4V1tQRhxd9jw=
+github.com/openbao/openbao/sdk/v2 v2.0.1/go.mod h1:JmVNJPvv1g1043F1dXWkqpBPkgxjArXy/oK8Iu82wN0=
