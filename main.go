@@ -4,7 +4,7 @@ import (
 	"encoding/base64"
 	"fmt"
 
-	"github.com/hashicorp/vault/shamir"
+	"github.com/openbao/openbao/sdk/v2/helper/shamir"
 )
 
 const Secret = "p455w0rdhunt3r2"
